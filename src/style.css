@@ -2,8 +2,6 @@
   --boarder: grey;
   --primary-color: #7146df;
   --secondary-color: #ef5f9a;
-  --tertiary-color: RGB(255, 232, 232);
-  --box-shadow: 5px 10px 30px RGB(0, 0, 0, 0.5);
 }
 body {
   background-color: beige;
