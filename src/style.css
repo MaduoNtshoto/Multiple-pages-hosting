@@ -1,0 +1,34 @@
+:root {
+  --boarder: grey;
+  --primary-color: #7146df;
+  --secondary-color: #ef5f9a;
+  --tertiary-color: RGB(255, 232, 232);
+  --box-shadow: 5px 10px 30px RGB(0, 0, 0, 0.5);
+}
+body {
+  background-color: beige;
+  text-align: center;
+  font-family: sans-serif;
+}
+h1 {
+  color: var(--primary-color);
+}
+button {
+  color: azure;
+  font-size: large;
+  border: 2px solid var(--boarder);
+  border-radius: 8px;
+  background: var(--secondary-color);
+  padding: 5px;
+  text-decoration: none;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.pictures {
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  color: rgb(52, 11, 235);
+  text-decoration: none;
+}
